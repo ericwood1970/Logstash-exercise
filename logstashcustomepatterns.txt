@@ -1,0 +1,4 @@
+LOG \s\w+\s\d+
+ALT (?<=alertname=")\w+\s\w+
+COMP (?<=computername=")\w+
+SV (?<=severity=")\d+
